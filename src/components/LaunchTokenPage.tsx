@@ -44,7 +44,7 @@ export default function LaunchTokenPage({ onBack }: LaunchTokenPageProps) {
   const [tokenName, setTokenName] = useState("");
   const [tokenSymbol, setTokenSymbol] = useState("");
   const [initialAmount, setInitialAmount] = useState("");
-  const [isLaunching, setIsLaunching] = useState(false);
+  const [isLaunching, _setIsLaunching] = useState(false);
   const [error, setError] = useState("");
 
   const wallet = useAccount();
