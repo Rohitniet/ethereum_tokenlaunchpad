@@ -11,11 +11,9 @@ import {
 import { Rocket, Wallet, LogOut, AlertCircle } from "lucide-react";
 import {
   parseEventLogs,
-  type Abi,
-  type AbiEvent,
-  type Address,
+ 
   type ParseEventLogsReturnType,
-  type PublicClient,
+ 
 } from "viem";
 
 import { abi } from "../config/abi.ts";

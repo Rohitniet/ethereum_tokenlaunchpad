@@ -1,6 +1,6 @@
 import { http, createConfig } from "wagmi";
-import { mainnet, sepolia } from "wagmi/chains";
-import { injected, metaMask, walletConnect } from "wagmi/connectors";
+import {  sepolia } from "wagmi/chains";
+import {  metaMask } from "wagmi/connectors";
 
 
 export const config = createConfig({
